@@ -35,18 +35,18 @@ Saving the QR Code: The generated QR code image is then saved to a file named "S
 
 It is a simple implementation of the Tic Tac Toe game using the Tkinter library in Python. Here's a brief description:
 
-Tkinter Setup: The code starts by importing the necessary modules from Tkinter and creating the root window with the specified dimensions and title.
+1. **Tkinter Setup**: The code starts by importing the necessary modules from Tkinter and creating the root window with the specified dimensions and title.
 
-Game Logic: The game logic is implemented using a dictionary board to represent the Tic Tac Toe board, where keys represent board positions and values represent the current state (either "X" or "O"). The turn variable keeps track of whose turn it is ("X" or "O"). There's also a game_end variable to track if the game has ended.
+2. **Game Logic**: The game logic is implemented using a dictionary `board` to represent the Tic Tac Toe board, where keys represent board positions and values represent the current state (either "X" or "O"). The `turn` variable keeps track of whose turn it is ("X" or "O"). There's also a `game_end` variable to track if the game has ended.
 
-Winning and Draw Check: Functions checkForWin() and checkForDraw() are defined to check for a winning condition or a draw.
+3. **Winning and Draw Check**: Functions `checkForWin()` and `checkForDraw()` are defined to check for a winning condition or a draw.
 
-Restart Game Function: The restartGame() function resets the game state when the "Restart Game" button is clicked.
+4. **Restart Game Function**: The `restartGame()` function resets the game state when the "Restart Game" button is clicked.
 
-Play Function: The play() function is called when a button on the game grid is clicked. It updates the button text based on the current player's turn and updates the board state accordingly. It also checks for a win or draw condition after each move.
+5. **Play Function**: The `play()` function is called when a button on the game grid is clicked. It updates the button text based on the current player's turn and updates the board state accordingly. It also checks for a win or draw condition after each move.
 
-Tic Tac Toe Board: The Tic Tac Toe grid is created using Tkinter buttons arranged in a 3x3 grid layout. Each button is configured to call the play() function when clicked.
+6. **Tic Tac Toe Board**: The Tic Tac Toe grid is created using Tkinter buttons arranged in a 3x3 grid layout. Each button is configured to call the `play()` function when clicked.
 
-Restart Button: A "Restart Game" button is provided to allow players to restart the game.
+7. **Restart Button**: A "Restart Game" button is provided to allow players to restart the game.
 
-Main Loop: The root.mainloop() function starts the Tkinter event loop, allowing the GUI to interact with the user.
+8. **Main Loop**: The `root.mainloop()` function starts the Tkinter event loop, allowing the GUI to interact with the user.
