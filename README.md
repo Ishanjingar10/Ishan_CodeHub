@@ -15,6 +15,7 @@ It is a Python program for a simple hand cricket game implemented using the Tkin
 
 Overall, this code combines Python's core functionalities with Tkinter's GUI capabilities to create a simple interactive hand cricket game where players can compete against a computer opponent.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **QR Code!!**
 
@@ -25,6 +26,9 @@ Import: The code imports the qrcode module and renames it to qr for convenience.
 QR Code Generation: The qr.make() function is used to generate a QR code. It takes a string argument representing the data to be encoded into the QR code. In this case, the string is a Google Maps link: "https://maps.app.goo.gl/t7ZxYX1cnUWi8q3m8".
 
 Saving the QR Code: The generated QR code image is then saved to a file named "Sarvodaya_Charm_Udhyog_Bhandar.png" using the img.save() method.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **Tic Tak Toe Game!!**
